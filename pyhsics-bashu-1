@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>物理期末一</title>
+ 
+    <!--更多版本 https://www.bootcdn.cn/video.js/-->
+    <link href="https://cdn.bootcss.com/video.js/7.6.5/alt/video-js-cdn.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/video.js/6.6.2/video.js"></script>
+ 
+    <!--更多版本 https://www.bootcdn.cn/videojs-contrib-hls/-->
+    <script src="https://cdn.bootcss.com/videojs-contrib-hls/5.15.0/videojs-contrib-hls.min.js"></script>
+</head>
+ 
+<body>
+    <div><font size="7"><br><center><b>物理巴蜀期末（1）</b></center><br></font>
+    <!-- poster="http://vjs.zencdn.net/v/oceans.png" 默认显示的封面 -->
+    <center><video id="example_video_1" class="video-js vjs-default-skin" controls preload="none">
+        <source src="https://cdn-bsyx02.eduzhida.com/vodfiles/sharefiles/2c94bb9171f4c7840171f863e1560146/s/live/9681bf8784c3fd5f018570e7bfd71085/202301/04112704/5d224178-40a1-4b8b-ac4a-dbc17dce6b8d.m3u8" type="application/x-mpegURL">
+    </video></center>
+ 
+    <script>
+        var player = videojs('example_video_1', {
+            muted: false,
+            controls: true,
+            height: 480,
+            width: 800,
+            loop: true,
+            // 更多配置.....
+        });
+    </script>
+	<br><center><font size="5">Made by:Teng</font></center>
+	</div>
+</body>
+ 
+</html>
